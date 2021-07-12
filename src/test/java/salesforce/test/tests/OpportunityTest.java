@@ -51,10 +51,6 @@ public class OpportunityTest extends GoToOpportunity {
                 element.click();
             }
         }
-        //wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//label[text()=\'Delivery/Installation Status\']/..//input[@class=\'slds-input slds-combobox__input\']")));
-        //driver.findElement(By.xpath("//label[text()=\'Delivery/Installation Status\']/..//input[@class=\'slds-input slds-combobox__input\']")).click();
-        //wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//lightning-base-combobox-item[@data-value=\'Completed\']")));
-        //driver.findElement(By.xpath("//lightning-base-combobox-item[@data-value=\'Completed\']")).click();
         driver.findElement(By.xpath("//input[@name=\'MainCompetitors__c\']")).sendKeys("Comp. #45 Tom");
         driver.findElement(By.xpath("//input[@name=\'OrderNumber__c\']")).sendKeys("#4545-df");
         driver.findElement(By.xpath("//input[@name=\'CurrentGenerators__c\']")).sendKeys("Recent Gen");
